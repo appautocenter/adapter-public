@@ -19,9 +19,9 @@ Obs: Caso o seu sistema de banco de dados não esteja entre os suportados entre 
 
 ## 🚀Funcionamento
 
-"O Autocenter App é uma aplicação Node.js (v18+) projetada para ser instalada na máquina local do cliente, onde os dados estarão disponíveis. No caso de disponibilização das views na web, o serviço pode operar na nuvem, proporcionando flexibilidade e acessibilidade aos usuários."
+"O Adapter Autocenter App é uma aplicação Node.js (v18+) projetada para ser instalada em máquinas locais dos clientes, onde os dados estarão disponíveis. No caso de disponibilização das views na web, o serviço pode operar na nuvem, proporcionando flexibilidade e acessibilidade aos usuários. Mas em muitos casos, onde temos apenas a disponibilidade de uma consulta local, podemos utilizar essa aplicação também localmente para coletar as informações disponibilizadas pelo cliente, e enviadas para o sistema Autocenter."
 
-Obs: Caso ja exista o node instalado na maquina para o funcionamento de outra aplicação entrar em contato para avaliar compatibilidade.
+Obs: Caso ja exista o node instalado na maquina para o funcionamento de outra aplicação, entrar em contato para avaliar compatibilidade.
 
 ## 🔐 Configuração do Arquivo `.env`
 
@@ -47,10 +47,10 @@ SSL= ##padrão false
 # ATIVAR COMBUSTIVEL TRUE OU FALSE (PADRÃO É FALSE) - PARA POSTOS
 FUEL=
 
-# ATIVAR PRODUTOS TRUE OU FALSE (PADRÃO É FALSE)
+# ATIVAR PRODUTOS TRUE OU FALSE (PADRÃO É FALSE) - PARA ESTOQUE/PEÇAS
 PRODUCTS=
 
-# ATIVAR ORDEM DE SERVIÇO TRUE OU FALSE (PADRÃO É FALSE)
+# ATIVAR ORDEM DE SERVIÇO TRUE OU FALSE (PADRÃO É FALSE) - PARA ORDENS DE SERVIÇO/REPAROS/VENDAS
 ORDER_SERVICE=
 ```
 
